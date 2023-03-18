@@ -1,0 +1,19 @@
+.cover {}
+
+.cover-front {
+    inline-size: inherit;
+    block-size: inherit;
+    background-color: var(--primary);
+    position: absolute;
+    inset: 0;
+    z-index:2;
+}
+
+.cover-back {
+    inline-size: inherit;
+    block-size: inherit;
+    background-color: var(--primary);
+    position: absolute;
+    inset: 0;
+    z-index:1;
+}
